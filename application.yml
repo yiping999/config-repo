@@ -21,8 +21,7 @@ security:
   oauth2:
     resource:
       user-info-uri: http://auth-service:5000/uaa/users/current
-#add for Spring Boot 1.5.3+ Dalston.RELEASE
-    filter-order : 3
+
     
 spring:
   rabbitmq:

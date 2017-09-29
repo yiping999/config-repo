@@ -14,4 +14,10 @@ server:
 logging:
   level:
     org.springframework.security: DEBUG
- 
+
+security:
+  oauth2:
+    resource:
+    filter-order : 3 
+    #add for Spring Boot 1.5.3+ Dalston.RELEASE
+    
