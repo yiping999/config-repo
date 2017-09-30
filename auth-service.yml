@@ -17,7 +17,7 @@ logging:
 
 
     #add for Spring Boot 1.5.3+ Dalston.RELEASE
-security:
-  oauth2:
-    resource:
-    filter-order : 3
+#security:
+#  oauth2:
+#    resource:
+#    filter-order : 3
