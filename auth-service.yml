@@ -11,13 +11,6 @@ server:
   context-path: /uaa
   port: 5000
   
-logging:
-  level:
-    org.springframework.security: DEBUG
-
-
-    #add for Spring Boot 1.5.3+ Dalston.RELEASE
-#security:
-#  oauth2:
-#    resource:
-#    filter-order : 3
+#logging:
+#  level:
+#    org.springframework.security: DEBUG
