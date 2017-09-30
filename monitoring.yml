@@ -1,4 +1,0 @@
-logging:
-  level:
-     org.springframework.cloud.netflix.turbine: DEBUG
-     org.springframework.cloud.netflix.hystrix: DEBUG

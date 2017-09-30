@@ -28,3 +28,8 @@ spring:
     host: rabbitmq
   zipkin:
     base-url: http://tracing:11008    
+    
+logging:
+  level:
+     org.springframework.cloud.netflix.turbine: DEBUG
+     org.springframework.cloud.netflix.hystrix: DEBUG    
